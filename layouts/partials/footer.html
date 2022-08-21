@@ -1,9 +1,12 @@
+<small>
+    <span>{{ site.Copyright | markdownify }}</span>
+{{ if .GitInfo }}
+    <span>/ {{ .GitInfo.AbbreviatedHash }}</span>
+{{ end }}
 <span>
-    {{ site.Copyright | markdownify }}
-</span>
-/
-<span>
+    /
     <a href="https://gohugo.io/">hugo</a>
     /
     <a href="https://github.com/janraasch/hugo-bearblog/">hugo-bearblog</a>
 </span>
+</small>
