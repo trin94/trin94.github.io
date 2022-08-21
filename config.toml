@@ -1,19 +1,17 @@
-baseURL = 'https://trin94.github.io'
-languageCode = 'en-us'
-title = "Elias' Personal Blog"
 author = "Elias M."
-copyright = "Copyright © 2022, Elias M."
-theme = 'hugo-bearblog'
-enableRobotsTXT = true
-
-# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+baseURL = 'https://trin94.github.io'
+copyright = '&copy; 2022 Elias M.'
 disableKinds = ["taxonomy"]
-
+enableGitInfo = true
 ignoreErrors = ["error-disable-taxonomy"]
+languageCode = 'en-us'
+subtitle = ''
+theme = 'hugo-bearblog'
+title = "Elias' Personal Blog"
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
-  description = "Hugo + Bear = :heart:"
+  description = "Elias' Personal Blog"
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
@@ -32,11 +30,4 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   # This theme will, by default, inject a made-with-line at the bottom of the page.
   # You can turn it off, but we would really appreciate if you don’t :-).
-  # hideMadeWithLine = true
-
-  # By default, this theme displays dates with a format like "02 Jan, 2006", but
-  # you can customize it by setting the `dateFormat` param in your site's config
-  # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
-  # for details. An example TOML config that uses [ISO
-  # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
-  # dateFormat = "2006-01-02"
+  hideMadeWithLine = true
