@@ -4,8 +4,6 @@ title = "Elias' Personal Blog"
 author = "Elias M."
 copyright = "Copyright © 2022, Elias M."
 theme = 'hugo-bearblog'
-
-# Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
