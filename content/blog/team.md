@@ -1,5 +1,5 @@
 +++
-title = "Tightening Squad"
+title = "Team TS"
 date = "2022-08-21T15:32:09+02:00"
 
 #
