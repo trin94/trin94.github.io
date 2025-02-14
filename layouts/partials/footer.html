@@ -1,12 +1,3 @@
-<small>
-    <span>{{ site.Copyright | markdownify }}</span>
-{{ if .GitInfo }}
-    <span>/ {{ .GitInfo.AbbreviatedHash }}</span>
+{{ if ne .Site.Params.hideMadeWithLine true }}
+Made with <a href="https://github.com/rokcso/hugo-bearblog-neo/">Hugo Bear Neo</a>
 {{ end }}
-<span>
-    /
-    <a href="https://gohugo.io/">hugo</a>
-    /
-    <a href="https://github.com/janraasch/hugo-bearblog/">hugo-bearblog</a>
-</span>
-</small>
